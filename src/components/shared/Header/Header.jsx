@@ -44,7 +44,7 @@ import { Dialog, DialogContent, DialogOverlay } from '../../ui/dialog';
 const src1 = "data:image/svg+xml;utf8,%3Csvg width='21' height='15' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='a'%3E%3Cstop stop-color='%23FFF' offset='0%'/%3E%3Cstop stop-color='%23F0F0F0' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='b'%3E%3Cstop stop-color='%230A17A7' offset='0%'/%3E%3Cstop stop-color='%23030E88' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='c'%3E%3Cstop stop-color='%23E6273E' offset='0%'/%3E%3Cstop stop-color='%23CF152B' offset='100%'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='url(%23a)' d='M0 0h21v15H0z'/%3E%3Cpath fill='url(%23b)' d='M-.002 0h21v15h-21z'/%3E%3Cpath d='M5.003 10H-.002V5h5.005L-2.082.22l1.118-1.657 8.962 6.045V-1h5v5.608l8.962-6.045L23.078.22 15.993 5h5.005v5h-5.005l7.085 4.78-1.118 1.657-8.962-6.045V16h-5v-5.608l-8.962 6.045-1.118-1.658L5.003 10z' fill='url(%23a)'/%3E%3Cpath d='M14.136 4.958l9.5-6.25a.25.25 0 00-.275-.417l-9.5 6.25a.25.25 0 10.275.417zm.732 5.522l8.515 5.74a.25.25 0 10.28-.415l-8.516-5.74a.25.25 0 00-.279.415zM6.142 4.526L-2.74-1.461a.25.25 0 00-.28.415L5.863 4.94a.25.25 0 00.279-.414zm.685 5.469l-9.845 6.53a.25.25 0 10.276.416l9.846-6.529a.25.25 0 00-.277-.417z' fill='%23DB1F35' fill-rule='nonzero'/%3E%3Cpath fill='url(%23c)' d='M-.002 9h9v6h3V9h9V6h-9V0h-3v6h-9z'/%3E%3C/g%3E%3C/svg%3E"
 const src2 = "data:image/svg+xml;utf8,%3Csvg width='21' height='15' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='a'%3E%3Cstop stop-color='%23FFF' offset='0%'/%3E%3Cstop stop-color='%23F0F0F0' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='b'%3E%3Cstop stop-color='%23D9101C' offset='0%'/%3E%3Cstop stop-color='%23CA0814' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='c'%3E%3Cstop stop-color='%230F7811' offset='0%'/%3E%3Cstop stop-color='%230A650C' offset='100%'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='url(%23a)' d='M0 0h21v15H0z'/%3E%3Cpath fill='url(%23b)' d='M0 0h21v5H0z'/%3E%3Cpath fill='url(%23c)' d='M0 10h21v5H0z'/%3E%3Cpath fill='url(%23a)' d='M0 5h21v5H0z'/%3E%3Cpath d='M10.066 8A3.266 3.266 0 0110 7.5a.5.5 0 111 0c0 .09-.024.283-.066.5h.57c.274 0 .496.232.496.5 0 .276-.216.5-.495.5h-2.01A.503.503 0 019 8.5c0-.276.216-.5.495-.5h.571zM9.5 7a.5.5 0 110-1 .5.5 0 010 1zm2 0a.5.5 0 110-1 .5.5 0 010 1zm2 1a.5.5 0 110-1 .5.5 0 010 1zm-6 0a.5.5 0 110-1 .5.5 0 010 1z' fill='%23FAD14E'/%3E%3C/g%3E%3C/svg%3E"
 const src3 = "data:image/svg+xml;utf8,%3Csvg width='21' height='15' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='a'%3E%3Cstop stop-color='%23FFF' offset='0%'/%3E%3Cstop stop-color='%23F0F0F0' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='b'%3E%3Cstop stop-color='%230C47B7' offset='0%'/%3E%3Cstop stop-color='%23073DA4' offset='100%'/%3E%3C/linearGradient%3E%3ClinearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='c'%3E%3Cstop stop-color='%23E53B35' offset='0%'/%3E%3Cstop stop-color='%23D32E28' offset='100%'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='url(%23a)' d='M0 0h21v15H0z'/%3E%3Cpath fill='url(%23b)' d='M0 5h21v5H0z'/%3E%3Cpath fill='url(%23c)' d='M0 10h21v5H0z'/%3E%3Cpath fill='url(%23a)' d='M0 0h21v5H0z'/%3E%3C/g%3E%3C/svg%3E"
-
+const emblem = '/src/assets/img/Emblem_of_Tajikistan.svg.png'
 const Header = () => {
   const savedLanguage = localStorage.getItem('language')
   const navigate = useNavigate();
@@ -175,7 +175,7 @@ const Header = () => {
       <nav className='flex justify-between gap-y-2 sticky top-0 p-2 py-1 bg-white dark:bg-[#030712] z-30 shadow-md shadow-[#d946ef30] rounded items-center dark:text-white'>
         <div className='flex gap-2 items-center sm-690:hidden'>
           <Link to={'/'}>
-            <img src="/src/assets/img/Emblem_of_Tajikistan.svg.png" style={{ maxWidth: '40px', maxHeight: '40px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
+            <img src={emblem} style={{ maxWidth: '40px', maxHeight: '40px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
           </Link>
           <h1 className="max-w-[400px]">{t('MH')}</h1>
         </div>
@@ -210,7 +210,7 @@ const Header = () => {
                 <SelectLabel className='border-b-2 mb-1'>{t('SS')}</SelectLabel>
                 <SelectItem className="cursor-pointer" value="emblem">
                   <div className='flex gap-2 items-center'>
-                    <img src="/src/assets/img/Emblem_of_Tajikistan.svg.png" style={{ maxWidth: '15px', height: '15px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
+                    <img src={emblem} style={{ maxWidth: '15px', height: '15px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
                     {t('Emblem')}
                   </div>
                 </SelectItem>
@@ -312,7 +312,7 @@ const Header = () => {
                   <DrawerTitle className="mb-4">{t('ALL')}</DrawerTitle>
                   <Link to={'/'}>
                     <div className='gap-1 items-center flex-col text-center flex text-[20px] mb-4 xs-450:text-[16px]'>
-                      <img src="/src/assets/img/Emblem_of_Tajikistan.svg.png" style={{ maxWidth: '50px', maxHeight: '50px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
+                      <img src={emblem} style={{ maxWidth: '50px', maxHeight: '50px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
                       <h1 className="">{t('MH')}</h1>
                     </div>
                   </Link>
@@ -408,7 +408,7 @@ const Header = () => {
         </Breadcrumb>
         <Link to={'/'}>
           <div className='hidden gap-1 items-center xs-450:flex-col xs-450:text-center sm-690:flex text-[14px]'>
-            <img src="/src/assets/img/Emblem_of_Tajikistan.svg.png" style={{ maxWidth: '50px', maxHeight: '50px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
+            <img src={emblem} style={{ maxWidth: '50px', maxHeight: '50px', filter: 'drop-shadow(1px 1px 3px #040) brightness(1.2)' }} alt="" />
             <h1 className="">{t('MH')}</h1>
           </div>
         </Link>
